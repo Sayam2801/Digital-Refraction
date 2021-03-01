@@ -1,0 +1,160 @@
+:root {
+  --vis:hidden;
+}
+svg {
+  margin-top:2.6rem;
+  margin-left:0;
+}
+.container {
+  width:900px;
+  height:900px;
+}
+button {
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+}
+p {
+  line-height: 0.2;
+}
+.slanting {
+  border-left: 1px solid red;
+  height: 75px;
+  position:absolute;
+  left: 16%;
+  transform:rotate(130deg);
+  display:block;
+  visibility:var(--vis);
+}
+.vertical {
+  border-left: 1px solid grey;
+  opacity:0.5;
+  height: 40px;
+  position:absolute;
+  left: 18.4%;
+  top:4%;
+  visibility:var(--vis);
+}
+.dotted {
+  border-left: dashed 1px grey;
+  height: 200px;
+  transform:rotate(130deg);
+  position:absolute;
+  left: 24.7%;
+  top:1.6rem;
+  line-height:2;
+  visibility:var(--vis);
+}
+.air {
+  border-left: solid 1px brown;
+  height: 12.5rem;
+  transform:rotate(130deg);
+  position:absolute;
+  left: 24.7%;
+  top:1.6rem;
+  line-height:2;
+  visibility:var(--vis);
+}
+.diamond {
+  border-left: solid 1px #d1ae00;
+  height: 6.5rem;
+  transform:rotate(160deg);
+  position:absolute;
+  left: 19.9%;
+  top:3.8rem;
+  visibility:var(--vis);
+}
+.diamond-2 {
+  border-left: solid 1px #d1ae00;
+  height: 3.125rem;
+  transform:rotate(130deg);
+  position:absolute;
+  left: 22.9%;
+  top:9.5rem;
+  visibility:var(--vis);
+}
+.water {
+  border-left: solid 1px blue;
+  height: 7.6rem;
+  transform:rotate(145deg);
+  position:absolute;
+  left: 21.3%;
+  top:3.2rem;
+  visibility:var(--vis);
+}
+.water-2 {
+  border-left: solid 1px blue;
+  height: 52px;
+  transform:rotate(130deg);
+  position:absolute;
+  left: 25.8%;
+  top:9.5rem;
+  visibility:var(--vis);
+}
+.glass {
+  border-left: solid 1px green;
+  height: 7.4rem;
+  transform:rotate(150deg);
+  position:absolute;
+  left: 20.7%;
+  top:3.2rem;
+  visibility:var(--vis);
+}
+.glass-2 {
+  border-left: solid 1px green;
+  height: 52px;
+  transform:rotate(130deg);
+  position:absolute;
+  left: 24.8%;
+  top:9.5rem;
+  visibility:var(--vis);
+}
+.vertical-2 {
+  border-left: 1px solid grey;
+  opacity:0.5;
+  height: 40px;
+  position:absolute;
+  left: 21.4%;
+  top:14%;
+  visibility:var(--vis);
+}
+.vertical-3 {
+  border-left: 1px solid grey;
+  opacity:0.5;
+  height: 40px;
+  position:absolute;
+  left: 23.2%;
+  top:14%;
+  visibility:var(--vis);
+}
+.vertical-4 {
+  border-left: 1px solid grey;
+  opacity:0.5;
+  height: 40px;
+  position:absolute;
+  left: 24.1%;
+  top:14%;
+  visibility:var(--vis);
+}
+.vertical-5 {
+  border-left: 1px solid grey;
+  opacity:0.5;
+  height: 40px;
+  position:absolute;
+  left: 28.3%;
+  top:14%;
+  visibility:var(--vis);
+}
+.text {
+  position:absolute;
+  top:4.5rem;
+  left:16.5rem;
+  font-size:1.5rem;
+}
+.text-2 {
+  position: absolute;
+  top:10rem;
+  left:22rem;
+  font-size:0.7rem;
+  transform:rotate(45deg);
+}

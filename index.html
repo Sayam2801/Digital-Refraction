@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DigitalRefraction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="favicon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p>In the game given below, you can fill the pink box by any material.</p>
+    <p>Step 1: Click on the "trace the incident ray" button.</p>
+    <p>Step 2: Choose a material by clicking on the button.</p>
+    <p>Step 3: Click on "Trace Refracted Ray" button to see refracted ray.</p>
+    <p>Play and then answer the question.</p>
+    <button type="button" name="button" id="trace-rays">Trace Incident Ray</button>
+    <br><br>
+    <button type="button" name="button" id="glass-button">Use Glass</button>
+    <button type="button" name="button" id="water-button">Use Water</button>
+    <button type="button" name="button" id="diamond-button">Use Diamond</button>
+    <button type="button" name="button" id="air-button">Use Air</button>
+    <br><br>
+    <button type="button" name="button" id="refracted-ray">Trace Refracted Ray</button>
+    <canvas id="canvas" width="10" height="10"></canvas>
+    <div class="canvas-container" style="width:1200px; height:1000px; position:relative; user-select:none;">
+      <div class="slanting"></div>
+      <div class="vertical"></div>
+      <div class="dotted"></div>
+      <div class="air"></div>
+      <div class="diamond"></div>
+      <div class="diamond-2"></div>
+      <div class="vertical-2"></div>
+      <div class="water"></div>
+      <div class="water-2"></div>
+      <div class="vertical-3"></div>
+      <div class="glass"></div>
+      <div class="glass-2"></div>
+      <span class="text"></span>
+      <div class="vertical-4"></div>
+      <div class="vertical-5"></div>
+      <span class="text-2"></span>
+      <svg width="300" height="150">
+         <rect x="50" y="20" width="200" height="100" style="fill:aqua;fill-opacity:0.3;" />
+      </svg>
+    </div>
+  </body>
+  <script src="Fabric.js" charset="utf-8"></script>
+</html>
